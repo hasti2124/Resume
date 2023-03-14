@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work History"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/txtexperience1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st experience"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="#646363"/>
+
+        <EditText
+            android:id="@+id/edtcname"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter company name" />
+        <EditText
+            android:id="@+id/edteyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter experience year" />
+        <EditText
+            android:id="@+id/edtposition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter position" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/txtexperience2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2st experience"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="#646363"/>
+
+        <EditText
+            android:id="@+id/edtcname2"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter company name" />
+        <EditText
+            android:id="@+id/edteyear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter experience year" />
+        <EditText
+            android:id="@+id/edtposition2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter position" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/txtexperience3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd experience"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="#646363"/>
+
+        <EditText
+            android:id="@+id/edtcname3"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter company name" />
+        <EditText
+            android:id="@+id/edteyear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter experience year" />
+        <EditText
+            android:id="@+id/edtposition3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter position" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnnext"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Next"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/button"/>
+
+</LinearLayout>
