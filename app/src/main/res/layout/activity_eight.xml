@@ -15,11 +15,15 @@
 
         <LinearLayout
             android:layout_width="166dp"
-            android:layout_height="200dp"
-            android:background="#DCAA15">
+            android:layout_height="166dp"
+            android:background="#DCAA15"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
 
         </LinearLayout>
 
 
     </LinearLayout>
+
 </LinearLayout>
